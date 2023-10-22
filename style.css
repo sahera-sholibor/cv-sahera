@@ -1,0 +1,42 @@
+/* ____________________________________________ Reset */
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* ____________________________________________ Font Face */
+@font-face {
+    font-family:'Poppins';
+    src: url(./font/Poppins-Light.ttf),
+    url(./font/Poppins-Black.ttf),
+    url(./font/Poppins-BlackItalic.ttf),
+    url(./font/Poppins-Bold.ttf),
+    url(./font/Poppins-ExtraBold.ttf),
+    url(./font/Poppins-ExtraBoldItalic.ttf);    
+}
+/* ____________________________________________ General Style */
+:root{
+    /* ____________________________________________ Colors */
+    --color--primary:rgb(255, 255, 255);
+    --color-secondary:rgba(255, 255, 255, 0.6);
+    --color--tertiary:rgb(47, 47, 47);
+    --color--fourthary:rgba(47, 47, 47, 0.5);
+    --color--fifth:rgb(30, 141, 238);
+    /* ____________________________________________ Padding */
+    /* ____________________________________________ Font Size */
+    /* ____________________________________________ Font Family */
+    --font-family:'Poppins';
+}
+body{
+    font-family: var(--font-family);
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
